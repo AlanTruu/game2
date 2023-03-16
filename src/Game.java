@@ -19,8 +19,11 @@ public class Game
 		//for loop to print out the array numbers
 		for (int i = 0; i < battleArray.length; i++)
 		{
+			System.out.print("\n");
 			System.out.print(battleArray[i][0]);
+			
 			System.out.print(battleArray[i][1]);
+		
 			System.out.print(battleArray[i][2]);
 		}
 	}
