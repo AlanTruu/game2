@@ -21,9 +21,7 @@ public class Game
 		{
 			System.out.print("\n");
 			System.out.print(battleArray[i][0]);
-			
 			System.out.print(battleArray[i][1]);
-		
 			System.out.print(battleArray[i][2]);
 		}
 	}

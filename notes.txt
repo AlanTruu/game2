@@ -1,0 +1,6 @@
+Create an abstract / or super class and then that will go into array list that is aggregated by the player
+
+test for player to have option to select array row / damage / which row to add
+
+encounter needs to be a loop until one of the player or monster is dead. 
+
