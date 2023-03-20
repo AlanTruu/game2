@@ -9,9 +9,21 @@ public class Game {
 		// arena object
 		CombatGrid arena = new CombatGrid(player, monster);
 		// arena is where the objects are to be held
-		arena.getStatus();
-		if(arena.isNextToEachOther()) {
-		encounter(player, monster);
+		while (monster.getHealth() > 0 && player.getHealth() > 0) {
+			arena.getStatus();
+			// encounter only runs when the player and the monster are occupying positions
+			// next to each other
+			if (arena.isNextToEachOther() != true) {
+				System.out.print("\n");
+				System.out.print("the player and monster are not next to each other, combat cannot occur yet");
+			} else {
+				System.out.print("\n");
+				System.out.print("initiate combat??");
+				encounter(player, monster);
+			}
+			System.out.print("\n");
+			arena.movePlayer();
+
 		}
 
 	}
@@ -32,7 +44,5 @@ public class Game {
 			System.out.print(battleArray[i][2]);
 		}
 	}
-
-	
 
 }
