@@ -75,7 +75,7 @@ public class Player extends Characters {
 	// https://javarevisited.blogspot.com/2015/09/how-to-loop-two-dimensional-array-in-java.html
 	// copied straight from the website
 	// changes the numbers of the attackArray after every method call
-	public void rngArray() {
+	public void randomizeArray() {
 		for (int row = 0; row < attackArray.length; row++) {
 			for (int col = 0; col < attackArray[row].length; col++) {
 				attackArray[row][col] = rand.nextInt(strength);
