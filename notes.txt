@@ -1,6 +1,15 @@
-Create an abstract / or super class and then that will go into array list that is aggregated by the player
+-> Create an abstract / or super class (item) that will then go into array list that is aggregated by the player
 
-test for player to have option to select array row / damage / which row to add
+-> test for player to have option to select array row / damage / which row to add
+-> need to create space for the player/monster inhabit. ie. 2d array that they each occupy an element of
+    {1, 0, 0},
+    {0, 0, 0},              0 signifying that the element is an empty space. 1 being monster. 2 being player
+    {0, 0, 2}               
+-> encounter needs to be a loop until one of the player or monster is dead. 
 
-encounter needs to be a loop until one of the player or monster is dead. 
 
+Monster(HP, Str, Spd)
+PLayer ("")
+
+
+going to want player to have the option every turn to either move or to attack, maybe by moving player has chance to regen some hp??
