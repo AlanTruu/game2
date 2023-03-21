@@ -1,9 +1,8 @@
 
-public class Empty extends Characters{
-	
+public class Empty extends Characters {
+	// Return the object type
 	@Override
-	public String getType()
-	{
+	public String getType() {
 		return "Empty ";
 	}
 

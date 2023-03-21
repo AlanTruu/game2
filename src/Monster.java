@@ -48,6 +48,7 @@ public class Monster extends Characters {
 		return speed;
 	}
 	
+	// Return the object type
 	@Override
 	public String getType()
 	{

@@ -64,10 +64,10 @@ public class Player extends Characters {
 	public void setDamageToMonster(Monster monster1, int damage) {
 		monster1.setHealth(monster1.getHealth() - damage);
 	}
-	
+
+	// Return the object type
 	@Override
-	public String getType()
-	{
+	public String getType() {
 		return "Player";
 	}
 
